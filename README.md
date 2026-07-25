@@ -91,5 +91,3 @@ docker run -d \
       LANOPS_JUKEBOX_API_PASSWORD: 
       LANOPS_JUKEBOX_API_URL: "http://localhost:9999"
 ```
-
-test
