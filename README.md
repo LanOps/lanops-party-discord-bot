@@ -71,12 +71,12 @@ docker run -d \
   -e LANOPS_JUKEBOX_API_URL=http://localhost:9999 \
   -p 8888:8888 \
   -v /mnt/servdata/lanops/jukebox/db:/db \
-  th0rn0/lanops-party-discord-bot:latest
+  lanopsdev/lanops-party-discord-bot:latest
 ```
 
 ```
   party-discord-bot:
-    image: th0rn0/lanops-party-discord-bot:latest
+    image: lanopsdev/lanops-party-discord-bot:latest
     container_name: party-discord-bot
     restart: unless-stopped
     environment:

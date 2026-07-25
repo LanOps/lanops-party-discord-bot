@@ -119,7 +119,7 @@ steps:
   - name: build-push
     image: plugins/docker
     settings:
-      repo: th0rn0/lanops-party-discord-bot
+      repo: lanopsdev/lanops-party-discord-bot
       dockerfile: resources/docker/Dockerfile
       username:
         from_secret: dockerhub_username
@@ -136,7 +136,7 @@ steps:
   - name: build-push-release
     image: plugins/docker
     settings:
-      repo: th0rn0/lanops-party-discord-bot
+      repo: lanopsdev/lanops-party-discord-bot
       dockerfile: resources/docker/Dockerfile
       username:
         from_secret: dockerhub_username
